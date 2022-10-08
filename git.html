@@ -44,6 +44,19 @@ body {
 
 
 FOR YOUR AVERAGE DUDE<br />
+
+step zero:
+WHY
+because sending zips between people is what cavemen do. we are in the twenty-first century and if i get another bastard trying to make me manually merge two projects just to add one object i will probably shoot myself in the head
+i'm sure your pals will appreciate it as well.
+you might think that this is something reserved for programmers, but git is very useful to those in other roles as well.
+sending images and music over discord is functional and all but cmon
+wouldn't it be nice if you could press one button and immediately download everyone's changes, and every version of them?
+well THAT'S why i'm here
+
+git is a fancy technology that lets you save and upload changes to files, instead of the whole file itself. once a file is tracked by git, saving it doesn't make a record of the entire thing, just of what is different between the last time you saved it and this time. because of this, it's incredibly lightweight and you save a lot of space both locally and when uploading.
+multiple people can work on the same project, and since they're only uploading their "changes" instead of an entire file, as long as those changes don't contradict eachother, they can be consolidated into a functioning project that you can keep working on automaticallly.
+in general this is called source control, and git is just one rendition of the idea, but it's pretty damn widely used, and it's the only one i've worked with. if you wanna use mercurial that's up to you
 <br />
 step one: <a href="https://git-scm.com">https://git-scm.com</a><br />
 install it.<br />
@@ -94,6 +107,23 @@ learn the words.<br />
 "pull" - download latest commits from the repo host<br />
 "branch" - a thread of updates stemming from some origin. multiple of these allow multiple variants of the project to be updated<br />
 "clone" - to download a repo with its git data<br />
+<br />
+step six:<br />
+GET YOUR REPO AND START GOING<br />
+in whichever client you're using, find a big ol button that says CLONE<br />
+hit it, drop that link from before in as the source, and pick somewhere on your computer as the destination.<br />
+once you hit clone, that place will be a git repository and will automatically pick up any file changes that are made in there.<br />
+in your client, it'll also open a big area with a timeline of commits and changed files on the right (gitkraken) or in the file status menu (sourcetree).<br />
+you're basically good to go by this point. to start committing just change or add some files, and they'll show up in the unstaged area. hit stage, enter a message in the commit box, and you've made your commit backup save thing.<br />
+hit "push" to make the changes visible to other users of the repository, and "pull" to acquire the changes of others.<br />
+if there are things you haven't pulled yet, make sure you commit any changes before pulling, or it'll make a "stash", which is basically "hey i hid all of your changes since the last formal commit and this one so you could get fully synced with what youre pulling"<br />
+if you wanna get your changes out of the stash, you gotta "pop" (or apply) it. right click it on the timeline or whatever and press that.<br />
+<br />
+step seven:<br />
+in which i don't talk about merge conflicts so as to not scare anyone off.<br />
+if you committed and then pulled and it says something is busted use your best judgement or google it or ask me on discord i'll try my best to help.<br />
+its all much easier to resolve on gitkraken.<br />
+<br />
 <br />
 THE END<br />
             </p>
