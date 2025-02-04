@@ -1,0 +1,13 @@
+{ "manifestFiles" : [ "runner.data",
+"runner.js",
+"runner.wasm",
+"audio-worklet.js",
+"game.unx",
+"s_basicmusic.ogg",
+"s_battlemusic.ogg" ], "manifestFilesMD5" : [ "6a434e070d02d0027a6a11eb24eedab3",
+"6fa6eb9e89ec21c79efd314b0247309d",
+"bab3ba79820646b8429d00606d9c1db2",
+"e8f1e8db8cf996f8715a6f2164c2e44e",
+"f92ab7bc900cc5a5c8ee04fd8eb7043f",
+"2832bfb8c6f043facd2b820ca5b60d99",
+"2557f353dddee9461717c597f9e37465" ], "mainJS" : "runner.js", "unx": "game.unx", "index": "index.html", "runner": {"version": "2024.11.0.226", "yyc": false}}
